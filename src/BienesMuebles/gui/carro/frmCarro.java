@@ -11,7 +11,7 @@ import java.awt.event.*;
 import java.util.List;
 
 public class frmCarro {
-    private JPanel jpaPrincipal;
+    public JPanel jpaPrincipal;
     private JPanel jpaIzquierda;
     private JLabel lblPlaca;
     private JLabel lblNumeroPuertas;

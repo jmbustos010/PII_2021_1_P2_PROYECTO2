@@ -13,7 +13,7 @@ import java.awt.event.MouseEvent;
 import java.util.List;
 
 public class frmAvion {
-    private JPanel jpaPrincipal;
+    public JPanel jpaPrincipal;
     private JPanel jpaIzquierda;
     private JLabel lblId;
     private JLabel lblNumeroDeMototres;

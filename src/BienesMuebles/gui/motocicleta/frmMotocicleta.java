@@ -15,7 +15,7 @@ import java.awt.event.MouseEvent;
 import java.util.List;
 
 public class frmMotocicleta {
-    private JPanel jpaPrincipal;
+    public JPanel jpaPrincipal;
     private JPanel jpaIzquierda;
     private JLabel lblPlaca;
     private JLabel lblKilometraje;
