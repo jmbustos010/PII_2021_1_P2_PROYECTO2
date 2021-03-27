@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BienesMuebles.gui.avion.frmAvion">
+  <grid id="27dc6" binding="jpaPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="900" height="755"/>
+    </constraints>
+    <properties>
+      <minimumSize width="900" height="750"/>
+      <preferredSize width="900" height="750"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="d7c8a" binding="jpaIzquierda" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <focusTraversalPolicyProvider value="false"/>
+          <foreground color="-131080"/>
+          <maximumSize width="200" height="100"/>
+          <minimumSize width="200" height="100"/>
+          <preferredSize width="200" height="150"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d489e" class="javax.swing.JLabel" binding="lblId">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="ID:"/>
+            </properties>
+          </component>
+          <component id="60ac7" class="javax.swing.JLabel" binding="lblNumeroDeMototres">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Numero de mototres:"/>
+            </properties>
+          </component>
+          <component id="1cb63" class="javax.swing.JLabel" binding="lblCapacidadDePeso">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Capacidad de peso:"/>
+            </properties>
+          </component>
+          <component id="b97c1" class="javax.swing.JLabel" binding="lblNombrePropietario">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Nombre del propietario"/>
+            </properties>
+          </component>
+          <component id="89c70" class="javax.swing.JLabel" binding="lblTipoDeAvion">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <requestFocusEnabled value="true"/>
+              <text value="Tipo de avion:"/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+          </component>
+          <component id="22818" class="javax.swing.JLabel" binding="lblListaPropietarios">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Lista de propietarios"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="715ca" binding="jpaInferior" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="90821" binding="sclPanDatos">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6d9e7" class="javax.swing.JTable" binding="tblDatos">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="3acbc" binding="jpaDerecha" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties>
+          <minimumSize width="600" height="400"/>
+          <preferredSize width="600" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f94fc" class="javax.swing.JTextField" binding="txtId">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d9638" class="javax.swing.JTextField" binding="txtNumeroDeMotores">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="b00b3" class="javax.swing.JTextField" binding="txtCapacidadDePeso">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="9e491" class="javax.swing.JTextField" binding="txtTipoDeAvion">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ce5ad" class="javax.swing.JTextField" binding="txtNombreDelPropietario">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="4c835" class="javax.swing.JComboBox" binding="cboAviones">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="42f3c" binding="jpaSuperior" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <minimumSize width="200" height="50"/>
+          <preferredSize width="200" height="50"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="31e10" class="javax.swing.JButton" binding="btnRegistrar">
+            <constraints/>
+            <properties>
+              <text value="&amp;Registrar"/>
+            </properties>
+          </component>
+          <component id="c3948" class="javax.swing.JButton" binding="btnActualizar">
+            <constraints/>
+            <properties>
+              <text value="&amp;Actualizar"/>
+            </properties>
+          </component>
+          <component id="ee1b6" class="javax.swing.JButton" binding="btnEliminar">
+            <constraints/>
+            <properties>
+              <text value="&amp;Eliminar"/>
+            </properties>
+          </component>
+          <component id="a80e8" class="javax.swing.JButton" binding="btnBuscar">
+            <constraints/>
+            <properties>
+              <selected value="false"/>
+              <text value="&amp;Buscar"/>
+            </properties>
+          </component>
+          <component id="7318a" class="javax.swing.JButton" binding="btnListar">
+            <constraints/>
+            <properties>
+              <text value="&amp;Listar"/>
+            </properties>
+          </component>
+          <component id="4d902" class="javax.swing.JButton" binding="btnLeerCombo">
+            <constraints/>
+            <properties>
+              <text value="Mostrar seire de Motor"/>
+            </properties>
+          </component>
+          <component id="c3842" class="javax.swing.JButton" binding="btnLimpiarCasillas">
+            <constraints/>
+            <properties>
+              <label value="Limpiar Casillas"/>
+              <text value="Limpiar Casillas"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

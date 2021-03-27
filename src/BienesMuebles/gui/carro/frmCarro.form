@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BienesMuebles.gui.carro.frmCarro">
+  <grid id="27dc6" binding="jpaPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="904" height="754"/>
+    </constraints>
+    <properties>
+      <foreground color="-8716267"/>
+      <minimumSize width="900" height="750"/>
+      <preferredSize width="900" height="750"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="704ba" binding="jpaIzquierda" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties>
+          <focusTraversalPolicyProvider value="false"/>
+          <foreground color="-131080"/>
+          <maximumSize width="200" height="100"/>
+          <minimumSize width="200" height="100"/>
+          <preferredSize width="200" height="150"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="53926" class="javax.swing.JLabel" binding="lblPlaca">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placa:"/>
+            </properties>
+          </component>
+          <component id="a93c" class="javax.swing.JLabel" binding="lblNumeroPuertas">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Numero de puertas:"/>
+            </properties>
+          </component>
+          <component id="139a7" class="javax.swing.JLabel" binding="lblColor">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Color:"/>
+            </properties>
+          </component>
+          <component id="10830" class="javax.swing.JLabel" binding="lblNumeroSerieMotor">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <requestFocusEnabled value="true"/>
+              <text value="Numero de serie de motor:"/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+          </component>
+          <component id="aedad" class="javax.swing.JLabel" binding="lblNombrePropietario">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Nombre del propietario"/>
+            </properties>
+          </component>
+          <component id="118a5" class="javax.swing.JLabel" binding="lblListaPropietarios">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Lista de propietarios"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="53a24" binding="jpaInferior" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="596" binding="sclPanDatos">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="564d5" class="javax.swing.JTable" binding="tblDatos">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="9121f" binding="jpaDerecha" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties>
+          <minimumSize width="600" height="400"/>
+          <preferredSize width="600" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="377fa" class="javax.swing.JTextField" binding="txtPlaca">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f5585" class="javax.swing.JTextField" binding="txtNumeroPuertas">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="c6807" class="javax.swing.JTextField" binding="txtColor">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f37da" class="javax.swing.JTextField" binding="txtNombrePropietario">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="25f84" class="javax.swing.JTextField" binding="txtNumeroDeSerieMotor">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="28c12" class="javax.swing.JComboBox" binding="cboCarros">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="6e1df" binding="jpaSuperior" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <minimumSize width="200" height="100"/>
+          <preferredSize width="200" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c17ee" class="javax.swing.JButton" binding="btnRegistrar">
+            <constraints/>
+            <properties>
+              <text value="&amp;Registrar"/>
+            </properties>
+          </component>
+          <component id="254ef" class="javax.swing.JButton" binding="btnActualizar">
+            <constraints/>
+            <properties>
+              <text value="&amp;Actualizar"/>
+            </properties>
+          </component>
+          <component id="8c3ab" class="javax.swing.JButton" binding="btnEliminar">
+            <constraints/>
+            <properties>
+              <text value="&amp;Eliminar"/>
+            </properties>
+          </component>
+          <component id="c0029" class="javax.swing.JButton" binding="btnBuscar">
+            <constraints/>
+            <properties>
+              <text value="&amp;Buscar"/>
+            </properties>
+          </component>
+          <component id="75364" class="javax.swing.JButton" binding="btnListar">
+            <constraints/>
+            <properties>
+              <text value="&amp;Listar"/>
+            </properties>
+          </component>
+          <component id="f5055" class="javax.swing.JButton" binding="btnLeerCombo">
+            <constraints/>
+            <properties>
+              <text value="Mostrar seire de Motor"/>
+            </properties>
+          </component>
+          <component id="a27d4" class="javax.swing.JButton" binding="btnLimpiarCasillas">
+            <constraints/>
+            <properties>
+              <label value="Limpiar Casillas"/>
+              <text value="Limpiar Casillas"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
